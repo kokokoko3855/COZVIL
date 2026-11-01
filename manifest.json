@@ -1,0 +1,20 @@
+{
+  "name": "COZVIL – Cozy Village 2050",
+  "short_name": "COZVIL",
+  "description": "A cozy 2050 village & survival game with story, sandbox and a local multiplayer world. Plays offline.",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#ffb98a",
+  "theme_color": "#ffd9b8",
+  "lang": "en",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
