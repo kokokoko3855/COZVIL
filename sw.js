@@ -1,6 +1,6 @@
 /* COZVIL service worker — makes the game installable and playable offline.
    Strategy: precache the app shell; network-first for the page (so updates arrive), cache-first for everything else. */
-const VERSION = 'cozvil-v2.0.0-beta.2';
+const VERSION = 'cozvil-v2.1.0-ui4';
 const SHELL = ['./', 'index.html', 'manifest.json', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
